@@ -1,0 +1,57 @@
+---
+name: Module-API
+version: 0.01
+author:
+  - Edmund von der Burg <evdb@ecclestoad.co.uk>
+abstract: ~
+license: perl
+build_requires:
+  Carp: 0
+  Cwd: 0
+  Data::Dumper: 0
+  File::Slurp: 0
+  File::Spec: 0
+  HTTP::Request: 0
+  HTTP::Response: 0
+  HTTP::Server::Simple: 0
+  HTTP::Server::Simple::CGI::Environment: 0
+  LWP::UserAgent: 0
+  List::Util: 0
+  Module::Build: 0
+  Module::Pluggable: 0
+  Net::HTTP::NB: 0
+  Storable: 0
+  Test::LongString: 0
+  Test::More: 0
+  URI: 0
+  YAML: 0
+  base: 0
+  strict: 0
+  warnings: 0
+provides:
+  Module::API:
+    file: lib/Module/API.pm
+    version: 0.01
+  Module::API::Base:
+    file: lib/Module/API/Base.pm
+  Module::API::Encoder::Storable:
+    file: lib/Module/API/Encoder/Storable.pm
+  Module::API::Encoder::YAML:
+    file: lib/Module/API/Encoder/YAML.pm
+  Module::API::Handler:
+    file: lib/Module/API/Handler.pm
+  Module::API::Message:
+    file: lib/Module/API/Message.pm
+  Module::API::Payload:
+    file: lib/Module/API/Payload.pm
+  Module::API::Plugin::Echo:
+    file: lib/Module/API/Plugin/Echo.pm
+  Module::API::Queue:
+    file: lib/Module/API/Queue.pm
+  Module::API::Request:
+    file: lib/Module/API/Request.pm
+  Module::API::Response:
+    file: lib/Module/API/Response.pm
+  Module::API::Server:
+    file: lib/Module/API/Server.pm
+generated_by: Module::Build version 0.2611

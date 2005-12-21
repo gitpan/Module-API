@@ -1,0 +1,36 @@
+API
+
+API provides you with a way to easily make an application accessible
+via an API.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc API
+
+You can also look for information at:
+
+    Search CPAN
+        http://search.cpan.org/dist/API
+
+    API development site (as part of the Tolk project)
+        http://dev.ecclestoad.co.uk/trac/tolk    
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 Edmund von der Burg
+
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
